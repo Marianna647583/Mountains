@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+  font-family: "Funnel Sans", sans-serif;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+:root {
+  --white: #ffffff;
+  --background: rgb(42, 42, 66);
+  --yellow: #fbd784;
+}
+
+.background-image {
+  background: linear-gradient(rgba(51, 49, 49, 0.5), rgb(42, 42, 66)),
+    url(images-mountains/background.png);
+}
+
+.header {
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__nav {
+  display: flex;
+  gap: 40px;
+}
+
+.header__logo {
+  font-family: Chronicle Display;
+  font-size: 32px;
+  line-height: 38.4px;
+  letter-spacing: 0.01em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.mountains__text {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: var(--yellow);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 700;
+  font-size: 14px;
+  padding-top: 198px;
+}
+
+.mountains__text::before {
+  content: "";
+  display: block;
+  width: 72px;
+  height: 2px;
+  background-color: var(--yellow);
+}
+
+.mountains__h1 {
+  font-size: 68px;
+  font-weight: 600;
+  line-height: 100px;
+  color: var(--white);
+  text-decoration-skip-ink: none;
+}
+
+.div__scroll__text {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.76px;
+  color: var(--white);
+}
+
+.div__scroll {
+  display: flex;
+  gap: 16px;
+  padding-bottom: 450px;
+}
+
+.color {
+  background-color: var(--background);
+}
+
+.bike1 {
+  background-image: url(images-mountains/eins.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding-bottom: 200px;
+}
+
+.bike2 {
+  background-image: url(images-mountains/zwei.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding-bottom: 200px;
+}
+
+.bike3 {
+  background-image: url(images-mountains/drei.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding-bottom: 200px;
+}
+
+.bike__text1 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: var(--yellow);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.bike__text1::before {
+  content: "";
+  display: block;
+  width: 72px;
+  height: 2px;
+  background-color: var(--yellow);
+}
+
+.bike__title {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 76.8px;
+  color: var(--white);
+  font-family: Chronicle Display;
+}
+
+.bike__text2 {
+  font-family: Gilroy;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  text-underline-position: from-font;
+  color: var(--white);
+  width: 600px;
+}
+
+.stretch {
+  display: flex;
+  gap: 16px;
+}
+
+.bike__text3 {
+  font-size: 18px;
+  line-height: 21.76px;
+  color: var(--yellow);
+}
+
+.bike__img {
+  width: 350px;
+  height: 400px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  color: var(--white);
+}
+
+.footer__logo1 {
+  font-family: Chronicle Display;
+  font-size: 32px;
+  line-height: 38.4px;
+  letter-spacing: 0.01em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.footer__text1 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  text-decoration-skip-ink: none;
+  padding-bottom: 122px;
+  width: 300px;
+}
+
+.footer__text2 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  text-decoration-skip-ink: none;
+  opacity: 0.5;
+}
+
+.footer__logo2 {
+  color: var(--yellow);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-decoration-skip-ink: none;
+}
+
+.MNTN__text {
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  text-decoration-skip-ink: none;
+}
